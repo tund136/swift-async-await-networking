@@ -12,6 +12,7 @@
 		AD9DCEA12711518C00CED5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCEA02711518C00CED5AE /* Assets.xcassets */; };
 		AD9DCEA42711518C00CED5AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCEA32711518C00CED5AE /* Preview Assets.xcassets */; };
 		AD9DCEAC2711521400CED5AE /* CharacterServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCEAB2711521400CED5AE /* CharacterServiceResult.swift */; };
+		AD9DCEB0271152B900CED5AE /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCEAF271152B900CED5AE /* CharacterService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AD9DCEA02711518C00CED5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9DCEA32711518C00CED5AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD9DCEAB2711521400CED5AE /* CharacterServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceResult.swift; sourceTree = "<group>"; };
+		AD9DCEAF271152B900CED5AE /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		AD9DCE9B2711518800CED5AE /* AsyncAwaitNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCEAE271152A800CED5AE /* Service */,
 				AD9DCEAA2711520600CED5AE /* Model */,
 				AD9DCE9C2711518800CED5AE /* AsyncAwaitNetworkingApp.swift */,
 				AD9DCE9E2711518800CED5AE /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				AD9DCEAB2711521400CED5AE /* CharacterServiceResult.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AD9DCEAE271152A800CED5AE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCEAF271152B900CED5AE /* CharacterService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				AD9DCE9F2711518800CED5AE /* ContentView.swift in Sources */,
 				AD9DCEAC2711521400CED5AE /* CharacterServiceResult.swift in Sources */,
 				AD9DCE9D2711518800CED5AE /* AsyncAwaitNetworkingApp.swift in Sources */,
+				AD9DCEB0271152B900CED5AE /* CharacterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
