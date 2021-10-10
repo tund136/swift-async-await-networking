@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD73AAE82712E6FB00615B20 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73AAE72712E6FB00615B20 /* CharacterViewModel.swift */; };
 		AD9DCE9D2711518800CED5AE /* AsyncAwaitNetworkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE9C2711518800CED5AE /* AsyncAwaitNetworkingApp.swift */; };
 		AD9DCE9F2711518800CED5AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE9E2711518800CED5AE /* ContentView.swift */; };
 		AD9DCEA12711518C00CED5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCEA02711518C00CED5AE /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD73AAE72712E6FB00615B20 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		AD9DCE992711518800CED5AE /* AsyncAwaitNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9DCE9C2711518800CED5AE /* AsyncAwaitNetworkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitNetworkingApp.swift; sourceTree = "<group>"; };
 		AD9DCE9E2711518800CED5AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD73AAE62712E6ED00615B20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD73AAE72712E6FB00615B20 /* CharacterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		AD9DCE902711518800CED5AE = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		AD9DCE9B2711518800CED5AE /* AsyncAwaitNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AD73AAE62712E6ED00615B20 /* ViewModel */,
 				AD9DCEAE271152A800CED5AE /* Service */,
 				AD9DCEAA2711520600CED5AE /* Model */,
 				AD9DCE9C2711518800CED5AE /* AsyncAwaitNetworkingApp.swift */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9DCE9F2711518800CED5AE /* ContentView.swift in Sources */,
+				AD73AAE82712E6FB00615B20 /* CharacterViewModel.swift in Sources */,
 				AD9DCEAC2711521400CED5AE /* CharacterServiceResult.swift in Sources */,
 				AD9DCE9D2711518800CED5AE /* AsyncAwaitNetworkingApp.swift in Sources */,
 				AD9DCEB0271152B900CED5AE /* CharacterService.swift in Sources */,
