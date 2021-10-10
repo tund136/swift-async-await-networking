@@ -23,7 +23,14 @@ class CharacterViewModel: ObservableObject {
         self.service = service
     }
     
-    func getCharacters() {
+    func getCharacters() async {
+        self.state = .loading
         
+        do {
+            let characters = try await service.fetchCharacters()
+            self.state = .success(data: characters)
+        } catch {
+            self.state = .failed(error: error)
+        }
     }
 }
