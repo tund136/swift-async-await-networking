@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var vm = CharacterViewModel(service: CharacterService())
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+
+        }
+        .task {
+            await vm.getCharacters()
+        }
     }
 }
 
