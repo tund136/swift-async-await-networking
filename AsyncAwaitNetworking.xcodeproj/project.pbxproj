@@ -46,6 +46,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AD73AAE92712EA9000615B20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE9E2711518800CED5AE /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AD9DCE902711518800CED5AE = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +73,11 @@
 		AD9DCE9B2711518800CED5AE /* AsyncAwaitNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AD73AAE92712EA9000615B20 /* View */,
 				AD73AAE62712E6ED00615B20 /* ViewModel */,
 				AD9DCEAE271152A800CED5AE /* Service */,
 				AD9DCEAA2711520600CED5AE /* Model */,
 				AD9DCE9C2711518800CED5AE /* AsyncAwaitNetworkingApp.swift */,
-				AD9DCE9E2711518800CED5AE /* ContentView.swift */,
 				AD9DCEA02711518C00CED5AE /* Assets.xcassets */,
 				AD9DCEA22711518C00CED5AE /* Preview Content */,
 			);
