@@ -12,7 +12,19 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-
+            switch vm.state {
+            case .success(let data):
+                List {
+                    ForEach(data, id: \.id) { item in
+                        Text(item.name)
+                    }
+                }
+                .navigationTitle("Characters")
+            case .loading:
+                ProgressView()
+            default:
+                EmptyView()
+            }
         }
         .task {
             await vm.getCharacters()
